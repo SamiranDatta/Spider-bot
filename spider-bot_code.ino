@@ -67,7 +67,6 @@ void loop() {
     delay(2);
     pwm.setPWM(3, 0, angleToPulse(angle) );
   }
-*/
   delay(1000);
 /*for( int angle =70; angle< 181; angle +=5){
     delay(2);
