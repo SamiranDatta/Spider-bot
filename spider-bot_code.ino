@@ -74,69 +74,85 @@ void turn_left(void)
   for(int angle=30;angle<=60;angle+=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=60;angle>=30;angle-=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=130;angle<=160;angle+=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=160;angle>=130;angle-=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=90;angle<=120;angle+=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=120;angle>=90;angle-=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=30;angle<=60;angle+=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=60;angle>=30;angle-=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
 }
@@ -146,69 +162,85 @@ void turn_right(void)
   for(int angle=30;angle>=0;angle-=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=30;angle+=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=90;angle>=60;angle-=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=60;angle<=90;angle+=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=130;angle>=100;angle-=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=100;angle<=130;angle+=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=30;angle>=0;angle-=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=30;angle+=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
 }
@@ -218,69 +250,85 @@ void crawl_forward(void)
   for(int angle=30;angle<=60;angle+=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(1, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=60;angle>=30;angle-=5)
   {
     pwm.setPWM(9, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=130;angle>=100;angle-=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(3, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=100;angle<=130;angle+=5)
   {
     pwm.setPWM(11, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=30;angle>=0;angle-=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(0, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=30;angle+=5)
   {
     pwm.setPWM(8, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
   for(int angle=90;angle<=120;angle+=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=0;angle<=90;angle+=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=90;angle>=0;angle-=5)
   {
     pwm.setPWM(2, 0, angleToPulse(angle) );
+    delay(100);
   }
   for(int angle=120;angle>=90;angle-=5)
   {
     pwm.setPWM(10, 0, angleToPulse(angle) );
+    delay(100);
   }
   delay(500);
 }
@@ -296,9 +344,9 @@ void loop() {
   delay(5000);
   turn_left();
   delay(5000);
+  crawl_forward();
   //crawl_forward();
-  //crawl_forward();
-  //delay(5000);*/
+  delay(5000);
 }
 
 /*
