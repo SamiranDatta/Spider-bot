@@ -69,6 +69,20 @@ void stand(void)
     delay(100);
 }}
 
+void sit(void)
+{
+  for( int angle =0; angle<=90; angle +=5){
+    pwm.setPWM(0, 0, angleToPulse(angle) ); //RFS2
+    pwm.setPWM(1, 0, angleToPulse(90-angle) ); //LFS2
+    pwm.setPWM(2, 0, angleToPulse(angle) ); //LHS2
+    pwm.setPWM(3, 0, angleToPulse(90-angle) ); //RHS2
+    pwm.setPWM(4, 0, angleToPulse(90-angle) ); //RFL
+    pwm.setPWM(5, 0, angleToPulse(angle) ); //LFL
+    pwm.setPWM(6, 0, angleToPulse(90-angle) ); //LHL
+    pwm.setPWM(7, 0, angleToPulse(angle) ); //RHL
+    delay(500);
+}}
+
 void turn_left(void)
 {
   for(int angle=30;angle<=60;angle+=5)
@@ -335,10 +349,11 @@ void crawl_forward(void)
 
 void loop() {
 
-//pwm.setPWM(0,0,580);
   initialize();
   delay(5000);
   stand();
+  delay(5000);
+  sit()
   delay(5000);
   turn_right();
   delay(5000);
